@@ -131,7 +131,7 @@ getCallback = function(callback)
       }
     }
     else {
-      callback(err, body);
+      callback(err, JSON.parse(body));
     }
   }
 }
