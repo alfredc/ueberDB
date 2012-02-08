@@ -130,8 +130,12 @@ getCallback = function(callback)
         callback(http_err, body);
       }
     }
-    else {
-      callback(err, JSON.parse(body));
+    else
+    {
+      try {
+        body = JSON.parse(body);
+      } catch (e) {}
+      callback(err, body);
     }
   }
 }
