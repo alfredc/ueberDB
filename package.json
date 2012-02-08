@@ -5,10 +5,10 @@
   "keywords"       : ["database", "keyvalue"],
   "author"         : "Peter 'Pita' Martischka <petermartischka@googlemail.com>",
   "dependencies"   : {
-                       "mysql"   : "0.9.4",
                        "dirty"   : "0.9.4",
                        "async"   : "0.1.15",
-                       "channels": "0.0.2"
+                       "channels": "0.0.2",
+                       "request" : "2.9.100"
                      },
   "devDependencies": {
                        "log4js"  : "0.3.9"
