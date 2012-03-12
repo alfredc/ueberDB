@@ -42,7 +42,7 @@ exports.database = function(settings)
   if (!settings.bucket)
     this.settings.bucket = "store";
 
-  this.settings.cache = 1000;
+  this.settings.cache = 0;
   this.settings.writeInterval = 0;
   this.settings.json = false;
 }
